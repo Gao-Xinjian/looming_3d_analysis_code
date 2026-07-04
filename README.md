@@ -24,10 +24,10 @@ Before using this analysis pipeline, **you must first run DANNCE** on your video
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/3d-mouse-tracking-analysis.git
-cd 3d-mouse-tracking-analysis
+git clone https://github.com/Gao-Xinjian/looming_3d_analysis_code.git
+cd looming_3d_analysis_code
 ```
-2. Configure parameters in analyze_data_3d_cfg.yaml to match your experimental setup.
+2. Configure parameters in `analyze_data_3d_cfg.yaml` and other paths in `.ipynb` to match your experimental setup.
 3. Run the analysis pipeline:
 ```jupyter notebook analyze_data_3d.ipynb```
 4. For behavioral clustering:
