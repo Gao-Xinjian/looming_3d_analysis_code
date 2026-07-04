@@ -6,9 +6,8 @@ This repository provides a comprehensive toolkit for analyzing 3D mouse tracking
 
 Before using this analysis pipeline, **you must first run DANNCE** on your video data to obtain accurate 3D coordinate predictions. This repository assumes you already have DANNCE-generated 3D keypoint data ready for downstream analysis.
 
----
-
 ## 📁 Repository Structure
+```plaintext
 ├── analyze_data_3d_utils/
 │ ├── DataAnalyzer.py # Core analysis functions for 3D tracking data
 │ ├── DataLoader.py # Data import and loading utilities
@@ -19,8 +18,7 @@ Before using this analysis pipeline, **you must first run DANNCE** on your video
 ├── analyze_data_3d_cfg.yaml # Configuration file with all adjustable parameters and variables
 ├── keypoint_moseq_test.ipynb # Behavioral clustering using Keypoint-MoSeq (unsupervised segmentation of 3D keypoint data)
 └── lst_3d_result.csv # Trial log/experiment records for each mouse session
-
----
+```
 
 ## 🛠️ Quick Start
 
@@ -28,6 +26,7 @@ Before using this analysis pipeline, **you must first run DANNCE** on your video
 ```bash
 git clone https://github.com/yourusername/3d-mouse-tracking-analysis.git
 cd 3d-mouse-tracking-analysis
+```
 2. Configure parameters in analyze_data_3d_cfg.yaml to match your experimental setup.
 3. Run the analysis pipeline:
 ```jupyter notebook analyze_data_3d.ipynb```
